@@ -1,0 +1,35 @@
+<idea-plugin version="5">
+  <id>scivisum.pycharmplugins.pyregex.PyRegexPlugin</id>
+  <name>PyRegex</name>
+  <version>1.4</version>
+  <vendor email="christian.murphy@scivisum.co.uk" url="http://www.scivisum.co.uk">Scivisum Ltd</vendor>
+
+  <description><![CDATA[
+      Test Python regular expressions in PyCharm.<br>
+
+    ]]></description>
+
+    <change-notes/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="141.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!--&lt;!&ndash; uncomment to enable plugin in all products-->
+  <depends>com.intellij.modules.python</depends>
+
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <group id="PythonRegexTester.Tester" text="_Tester" description="Tester">
+      <add-to-group group-id="MainToolBar" anchor="last"  />
+      <action id="RegexPanel" class="OpenRegexTestWindow" text="Test Regular Expressions" description="Test a python regular expression in PyCharm"
+              icon="images/dotstar.jpg" />
+    </group>
+  </actions>
+
+</idea-plugin>

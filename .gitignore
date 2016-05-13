@@ -1,0 +1,5 @@
+# Exclude compiled classes
+out/
+# Exclude the project files
+.idea/
+*.jar
