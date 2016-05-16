@@ -23,6 +23,6 @@ public class OpenRegexTestWindow extends AnAction {
 
     @Override
     public void update(AnActionEvent anActionEvent) {
-        anActionEvent.getPresentation().setIcon(IconLoader.getIcon("images/dotstar.jpg"));
+        anActionEvent.getPresentation().setIcon(IconLoader.getIcon("images/dotstar.png"));
     }
 }

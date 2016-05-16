@@ -28,7 +28,7 @@
     <group id="PythonRegexTester.Tester" text="_Tester" description="Tester">
       <add-to-group group-id="MainToolBar" anchor="last"  />
       <action id="RegexPanel" class="OpenRegexTestWindow" text="Test Regular Expressions" description="Test a python regular expression in PyCharm"
-              icon="images/dotstar.jpg" />
+              icon="images/dotstar.png" />
     </group>
   </actions>
 
